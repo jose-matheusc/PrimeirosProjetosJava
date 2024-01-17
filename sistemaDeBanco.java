@@ -1,4 +1,5 @@
 
+//Um jogo de adivinhaçao
 import java.util.Scanner;
 
 public class sistemaDeBanco {
