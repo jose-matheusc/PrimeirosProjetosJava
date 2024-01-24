@@ -13,7 +13,7 @@ public class jogoDeAdivinhacao {
         System.out.println("Chute o primeiro numero: ");
         int chutes = 0;
 
-        while(chutes < 5) {
+        while (chutes < 5) {
             int chute1 = leitura.nextInt();
             ++chutes;
             if (numero > chute1) {
@@ -31,8 +31,9 @@ public class jogoDeAdivinhacao {
                 System.out.println("Você não conseguiu acertar, o numero é: " + numero);
                 break;
             }
+
         }
+
 
     }
 }
-
