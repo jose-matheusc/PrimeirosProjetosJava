@@ -25,14 +25,14 @@ public class sistemaDeBanco {
 
             float transferencia;
             if (opcao == 2) {
-                System.out.println("Digite o valor que deseja receber: ");
+                System.out.println("Digite o valor que deseja receber:  ");
                 transferencia = leitura.nextFloat();
                 saldo += transferencia;
                 System.out.println("Seu novo saldo é: " + saldo);
             }
 
             if (opcao == 3) {
-                System.out.println("Digite o valor que deseja transferir");
+                System.out.println("Digite o valor que deseja transferir: ");
                 transferencia = leitura.nextFloat();
                 if (saldo >= transferencia) {
                     saldo -= transferencia;
